@@ -20,7 +20,7 @@ public:
     void update();
     RectangleShape getFoodObj();
     FloatRect getFoodRect();
-    
+
 private:
     Vector2f foodPosition;
     RectangleShape foodObj;

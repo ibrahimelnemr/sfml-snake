@@ -12,6 +12,8 @@
 #include <sstream>
 using namespace sf;
 
+// test
+
 void Game::start() {
     window.create(VideoMode(windowWidth, windowWidth), "Snake");
     Clock clock;
