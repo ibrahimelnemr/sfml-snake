@@ -12,7 +12,6 @@
 #include <sstream>
 using namespace sf;
 
-// Start game
 
 void Game::start() {
     window.create(VideoMode(windowWidth, windowWidth), "Snake");
