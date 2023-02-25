@@ -10,3 +10,5 @@ A clone of the classic Snake arcade game.
 `g++ main.cpp Game.cpp Input.cpp Logic.cpp Draw.cpp Snake.cpp Food.cpp Update.cpp -o sfml-snake -I include -L lib -l sfml-system -l sfml-window -l sfml-graphics -l sfml-audio -l sfml-network -Wl,-rpath ./lib`
 4. Within the same directoy, run `./sfml-snake`
 5. Enjoy!
+
+![snake_image](snake_sfml.png "Image")
