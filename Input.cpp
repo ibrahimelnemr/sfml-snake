@@ -23,14 +23,14 @@ void Game::input() {
     }
     
     else if((event.type==sf::Event::KeyPressed) && (event.key.code ==sf::Keyboard::Left)) {
- snake.tail.front().downMove = false;
-      snake.tail.front().upMove = false;
-      snake.tail.front().rightMove = false;
-      snake.tail.front().leftMove = true;
+        snake.tail.front().downMove = false;
+        snake.tail.front().upMove = false;
+        snake.tail.front().rightMove = false;
+        snake.tail.front().leftMove = true;
     }
     
     else if ((event.type==sf::Event::KeyPressed) && (event.key.code ==sf::Keyboard::Up)) {
-          snake.tail.front().downMove = false;
+        snake.tail.front().downMove = false;
         snake.tail.front().upMove = true;
         snake.tail.front().rightMove = false;
         snake.tail.front().leftMove = false;
@@ -39,9 +39,9 @@ void Game::input() {
     
     else if((event.type==sf::Event::KeyPressed) && (event.key.code ==sf::Keyboard::Down)) {
         snake.tail.front().downMove = true;
-             snake.tail.front().upMove = false;
-             snake.tail.front().rightMove = false;
-             snake.tail.front().leftMove = false;
+        snake.tail.front().upMove = false;
+        snake.tail.front().rightMove = false;
+        snake.tail.front().leftMove = false;
   
     }
 

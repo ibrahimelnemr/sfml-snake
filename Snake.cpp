@@ -36,7 +36,7 @@ void Snake::setPosition(Vector2f position) {
     snakePosition.y = position.y;
 }
 
- 
+
 void Snake::sidesOrBottom() {
     if (snakePosition.x > game.windowWidth + snakeSize.x)
         snakePosition.x = -snakeSize.x;

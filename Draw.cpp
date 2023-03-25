@@ -7,15 +7,26 @@ using namespace sf;
 
 void Game::draw() {
     
-    window.clear(sf::Color::Black);
+    // clear the window
     
+    window.clear(sf::Color::Black);
+
+    // draw food item
+
     window.draw(food.getFoodObj());
+
+    // draw snake head
 
     window.draw(snake.tail.front().getSnakeObj());
 
- for (int i = 1; i < snake.tail.size(); i++) {
-    window.draw(snake.tail.at(i).getSnakeObj());
-    }
+    // draw snake body
+    
+    for (int i = 1; i < snake.tail.size(); i++)
+        {
+            window.draw(snake.tail.at(i).getSnakeObj());
+        }
+    
+    // display window
     
     window.display();
 

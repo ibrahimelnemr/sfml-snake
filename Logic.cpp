@@ -16,27 +16,29 @@ void Game::logic() {
 
     snake.adjustPosition();
 
-if        (snake.tail.front().getSnakeFloatRect().intersects(food.getFoodRect()))
-    
+// check if snake head collided with food object
+    if (snake.tail.front().getSnakeFloatRect().intersects(food.getFoodRect()))
+
     {
         food.newFoodPosition();
         snake.grow();
     }
 
+// check if snake head collided with any block in snake body
 
-    for (int i = 1; i < snake.tail.size(); i++) {
+    for (int i = 1; i < snake.tail.size(); i++) 
+    
+    {
         
-        if        (snake.tail.front().getSnakeFloatRect().intersects(snake.tail.at(i).getSnakeFloatRect()))
-            
+        if (snake.tail.front().getSnakeFloatRect().intersects(snake.tail.at(i).getSnakeFloatRect()))
+   
         {
             endScore = snake.getLength();
             snake.setLength(-2);
             snake.tail.resize(1);
-            
         }
 
     }
-
 
     
 }
