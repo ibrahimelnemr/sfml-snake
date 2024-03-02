@@ -1,0 +1,3 @@
+/Users/ibrahim/csproj/sfml-snake/build/CMakeFiles/sfml_snake.dir
+/Users/ibrahim/csproj/sfml-snake/build/CMakeFiles/edit_cache.dir
+/Users/ibrahim/csproj/sfml-snake/build/CMakeFiles/rebuild_cache.dir
