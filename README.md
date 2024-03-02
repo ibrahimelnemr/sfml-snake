@@ -1,4 +1,4 @@
-# Snake-Game
+# sfml-snake
  
 A clone of the classic Snake arcade game.
 
