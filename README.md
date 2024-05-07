@@ -10,7 +10,7 @@ A clone of the classic Snake arcade game.
 
 We will build SFML from source and link it statically. If SFML has already been built from source and linked statically, skip this step. 
 
-First download SFML 2.5.1 sources to the root direcotry of this proejct from [https://www.sfml-dev.org/]
+First download SFML 2.5.1 sources to the root directory of this proejct from [https://www.sfml-dev.org/]
 
 Extract the zip file and rename the directory to `SFML-2.5.1-sources`
 
